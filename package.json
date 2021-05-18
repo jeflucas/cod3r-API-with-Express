@@ -2,8 +2,9 @@
   "name": "cod3r-API-with-Express",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/servidor.js",
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/jeflucas/cod3r-API-with-Express#readme",
   "dependencies": {
     "express": "4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.14.11"
   }
 }
