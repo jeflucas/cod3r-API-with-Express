@@ -18,3 +18,5 @@ function getProduto(id) {
 function getProdutos() {
     return Object.values(produtos)
 }
+
+module.exports = {salvarProduto, getProduto, getProdutos}
